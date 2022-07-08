@@ -18,13 +18,7 @@ h1 {
   justify-content: center;
   font-size: 3em;
 }
-span {
-  font-size: 1.5em;
-  position: absolute;
-  top: 10%;
-  width: 100%;
-  text-align: center;
-}
+
 button {
   display: block;
   margin: 0 auto;
@@ -73,6 +67,27 @@ ul{
 }
 li{
   list-style: none;
+}
+/*****************************************
+/* media query for span
+/******************************************/
+@media only screen and (min-width: 555px) {
+  span {
+    font-size: 1.5em;
+    position: absolute;
+    top: 7%;
+    width: 100%;
+    text-align: center;
+  }
+}
+@media only screen and (min-width: 790px) {
+  span {
+    font-size: 1.5em;
+    position: absolute;
+    top: 10%;
+    width: 100%;
+    text-align: center;
+  }
 }
 /******************************************
 /* rules
