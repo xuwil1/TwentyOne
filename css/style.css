@@ -1,0 +1,82 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+  background: #051F20;
+  color:#8EB69B;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+h1 {
+  display: flex;
+  align-content: stretch;
+  justify-content: center;
+  font-size: 3em;
+}
+span {
+  font-size: 1.5em;
+  position: absolute;
+  top: 10%;
+  width: 100%;
+  text-align: center;
+}
+button {
+  display: block;
+  margin: 0 auto;
+  font-size: 2em;
+  background: black;
+} 
+
+
+button:hover {
+  color: #B68EA9;
+  background: black;
+  border-radius: 1%;
+  border: 1px solid black;
+} 
+a{
+  background-color: transparent;
+  position: relative;
+  bottom: 60px;
+  left: 45px;
+  font-size: 1.5em;
+  text-decoration: none;
+}
+a:hover{
+  color: #B68EA9;
+}
+img{
+  display: block;
+  margin: 0 auto;
+}
+.game>div{
+    display: flex;
+    flex-direction: row;
+}
+#draw{
+  margin-right:5px;
+}
+#show{
+  margin-left:5px;
+}
+ul{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: stretch;
+  justify-content: center;
+}
+li{
+  list-style: none;
+}
+/******************************************
+/* rules
+/*******************************************/
+#rules{
+  margin: 0 5%;
+}
